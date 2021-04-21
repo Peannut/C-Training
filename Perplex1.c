@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 void toUpperCase(char arr[]) {  
     int i,max;
     for(i = 0; arr[i] != '\0'; i++)
@@ -8,6 +9,7 @@ void toUpperCase(char arr[]) {
     }
     printf("%s\n", arr);    
 }
+
 int main(){
   char t[] = "PerPlexS";
   toUpperCase(t);
