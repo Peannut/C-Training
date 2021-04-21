@@ -25,6 +25,7 @@ int isNarcissistic(int n){
   //Narcissistic verifying
   return result == n ;
 }
+
 int main(){
 
   isNarcissistic(153);
